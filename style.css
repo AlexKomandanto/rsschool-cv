@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(84, 84, 197);
+    background-color: rgb(180, 213, 220);
+    margin: 20px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+  }
+  
+  .photo {
+    align-self: start;
+  }
+  
+  .content {
+    align-self: start;
+  }
+  
+  .photo img {
+    width: 300px;
+    height: auto;
+  }
+  
+  h1 {
+    color: beige;
+  }
+  
+  h2 {
+    color: rgb(84, 84, 197);
+  }
+  
+  a {
+    color: rgb(84, 84, 197);
+  }
+  
+  p {
+    color: rgb(84, 84, 197);
+  }
+  
+  pre {
+    color: rgb(84, 84, 197);
+  }
+  
+  
+  
