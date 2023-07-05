@@ -42,6 +42,49 @@ body {
   pre {
     color: rgb(84, 84, 197);
   }
+  /* Footer Style Start */
+  .footer{
+    background-color: var(--light-gray);
+    padding: 10px 0;
+    text-align: center;
+}
+.footer__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__block:nth-child(2){
+    margin-right: 10px;
+}
+.footer__social{
+    background-image: url(icon-github.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.footer__social_yt{
+    background-image: url(icon-youtube.png);
+    margin-right: 0;
+    width: 40px;
+    background-size: contain;
+}
+.footer__text{
+    display: flex;
+    align-items: center;
+}
+.footer__image{
+    width: 70px;
+    margin: 0 10px;
+}
+.footer__link{
+    color: var(--text-color);
+    margin-right: 10px;
+}
+/* Footer Style End */
   
   
   
