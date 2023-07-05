@@ -57,7 +57,7 @@ body {
     margin-right: 10px;
 }
 .footer__social{
-    background-image: url(icon-github.png);
+    background-image: url(/images/icon-github.png);
     background-position: center left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +67,7 @@ body {
     margin-right: 10px;
 }
 .footer__social_yt{
-    background-image: url(icon-youtube.png);
+    background-image: url(/images/icon-youtube.png);
     margin-right: 0;
     width: 40px;
     background-size: contain;
