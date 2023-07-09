@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(84, 84, 197);
+    background-color: rgb(180, 213, 220);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+  }
+  
+  .photo {
+    align-self: start;
+  }
+  
+  .content {
+    align-self: start;
+  }
+  
+  .photo img {
+    width: 300px;
+    height: auto;
+  }
+  
+  h1 {
+    color: beige;
+  }
+  
+  h2 {
+    color: rgb(84, 84, 197);
+  }
+  
+  a {
+    color: rgb(84, 84, 197);
+  }
+  
+  p {
+    color: rgb(84, 84, 197);
+  }
+  
+  pre {
+    color: rgb(84, 84, 197);
+  }
+  /* Footer Style Start */
+  .footer{
+    background-color: var(--light-gray);
+    padding: 10px 0;
+    text-align: center;
+}
+.footer__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__block:nth-child(2){
+    margin-right: 10px;
+}
+.footer__social{
+    background-image: url(/images/icon-github.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.footer__text{
+    display: flex;
+    align-items: center;
+}
+.footer__image{
+    width: 70px;
+    margin: 0 10px;
+}
+.footer__link{
+    color: var(--text-color);
+    margin-right: 10px;
+}
+/* Footer Style End */
+  
+  
+  
